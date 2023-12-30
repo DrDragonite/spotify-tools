@@ -13,13 +13,12 @@ This repository contains three Python scripts that leverage the Spotify API to m
 1. Sign up for a Spotify developer account and create a new application.
 2. Obtain the necessary credentials (client ID, client secret, and redirect URI).
 3. Configure the `spotify.py` file with your credentials.
-4. Install the required dependencies by running `pip install -r requirements.txt`.
 
 ## Usage
 
 ### `add_tracks_to_playlist.py`
 1. Create a newline-separated file containing a list of Spotify track IDs.
-2. Configure the `playlist_id` variable in the script with the ID of the playlist you want to add tracks to.
+2. Configure the `PLAYLIST_ID` variable in the script with the ID of the playlist you want to add tracks to.
 3. Run the script using `python add_tracks_to_playlist.py`.
 
 ### `get_tracks.py`
