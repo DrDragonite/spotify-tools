@@ -2,13 +2,16 @@
 
 This project consists of three Python scripts that allow you to manage your Spotify playlists using the Spotify API.
 
-## `add_tracks_to_playlist.py`This script allows you to add a large list of tracks to a specified playlist. It requires a newline-separated list of Spotify track IDs and a Spotify playlist ID.
+## `add_tracks_to_playlist.py`
+This script allows you to add a large list of tracks to a specified playlist. It requires a newline-separated list of Spotify track IDs and a Spotify playlist ID.
 
 To use this script, you need to authorize the application to access your Spotify account. The authorization process is handled by the `spotify.py` module.
 
-## `get_tracks.py`This script converts a newline-separated list of tracks in the format `artist - name` into Spotify track IDs. 
+## `get_tracks.py`
+This script converts a newline-separated list of tracks in the format `artist - name` into Spotify track IDs. 
 
-## `spotify.py`This module provides functions to authorize the application and fetch data from the Spotify API. The `authorize` function handles the authorization process, while the `fetch_api` and `fetch_user_api` functions handle the fetching of data from the Spotify API.
+## `spotify.py`
+This module provides functions to authorize the application and fetch data from the Spotify API. The `authorize` function handles the authorization process, while the `fetch_api` and `fetch_user_api` functions handle the fetching of data from the Spotify API.
 
 To use any of these files, you first need to configure the `spotify.py` API file
 
